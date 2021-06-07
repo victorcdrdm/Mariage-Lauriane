@@ -1,0 +1,884 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+button, input[type=submit], input[type=reset] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit; }
+
+.container-annexe {
+  background-color: #5b98a8;
+  padding-top: 130px;
+  height: 100%; }
+
+.container-annexe .outside-annexe-round {
+  min-height: 200px;
+  border-radius: 1800px 1800px 0 0;
+  padding: 70px;
+  background-image: url("../images/patern.png"); }
+
+.container-annexe .outside-annexe-round .inside-annexe-round {
+  border-radius: 1200px 1200px 0 0;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 220px; }
+
+.container-annexe .outside-annexe-round .inside-annexe-round .annexe-low-title {
+  padding-top: 180px;
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: 3.04px;
+  font-weight: 300;
+  font-style: italic; }
+
+.container-annexe .outside-annexe-round .inside-annexe-round .annexe-title {
+  margin-top: 32px;
+  font-size: 82px;
+  line-height: 70px;
+  letter-spacing: 5px;
+  font-weight: bold; }
+
+.container-annexe .outside-annexe-round .inside-annexe-round .annexe-texte {
+  margin-top: 40px;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 1.82px;
+  font-weight: 300;
+  font-style: italic; }
+
+.container-annexe .outside-annexe-round .inside-annexe-round .annexe-hour, .container-annexe .outside-annexe-round .inside-annexe-round .annexe-hotel-address {
+  margin-top: 30px;
+  font-size: 30px;
+  line-height: 67px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1.82px;
+  margin-bottom: 30px; }
+
+.container-annexe .outside-annexe-round .inside-annexe-round .annexe-hotel-address {
+  line-height: normal; }
+
+.container-annexe .outside-annexe-round .inside-annexe-round .annexe-hotel-name {
+  color: #5b98a8;
+  margin-top: 60px;
+  font-size: 50px;
+  letter-spacing: 3.04px;
+  font-weight: bold;
+  text-decoration-line: underline; }
+
+.container-annexe .outside-annexe-round .inside-annexe-round .annexe-link-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 1.82px;
+  font-size: 30px;
+  margin-bottom: 80px;
+  text-decoration-line: underline;
+  color: #5b98a8;
+  cursor: pointer; }
+
+.container-annexe .outside-annexe-round .inside-annexe-round .annexe-link-address a {
+  text-decoration-line: underline;
+  color: #5b98a8; }
+
+.container-annexe .outside-annexe-round .inside-annexe-round .annexe-link-address .google-map {
+  margin-right: 40px; }
+
+.container-annexe .outside-annexe-round .inside-annexe-round .annexe-link-address .annexe-map {
+  margin-top: 80px;
+  padding-bottom: 130px; }
+
+footer {
+  margin-top: -70px; }
+
+@media screen and (max-width: 916px) {
+  .container-annexe {
+    padding-top: 0px; }
+  .container-annexe .outside-annexe-round {
+    padding: 40px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round {
+    padding-bottom: 120px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-low-title {
+    padding-top: 82px;
+    font-size: 40px;
+    line-height: 26px;
+    letter-spacing: 1.22px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-title {
+    font-size: 53px;
+    line-height: 50px;
+    letter-spacing: 3.25px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-texte {
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    line-height: 36px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-hour, .container-annexe .outside-annexe-round .inside-annexe-round .annexe-hotel-address {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 44px;
+    margin-bottom: 20px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-link-address {
+    font-size: 24px;
+    margin-bottom: 50px;
+    letter-spacing: 1.65px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-hotel-name {
+    margin-top: 40px;
+    font-size: 40px;
+    letter-spacing: 2.34px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-map {
+    width: 80%; } }
+
+@media screen and (max-width: 726px) {
+  .container-annexe {
+    padding-top: 0px; }
+  .container-annexe .outside-annexe-round {
+    padding: 25px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round {
+    padding-bottom: 50px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-low-title {
+    padding-top: 72px;
+    font-size: 35px;
+    line-height: 22px;
+    letter-spacing: 1.22px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-title {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2.25px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-texte {
+    font-size: 18px;
+    letter-spacing: 1.01px;
+    line-height: 20px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-hour, .container-annexe .outside-annexe-round .inside-annexe-round .annexe-hotel-address {
+    margin-top: 18px;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 20px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-link-address {
+    font-size: 24px;
+    margin-bottom: 50px;
+    letter-spacing: 1.65px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-hotel-name {
+    margin-top: 35px;
+    font-size: 35px;
+    letter-spacing: 1.47px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-map {
+    width: 80%; } }
+
+@media screen and (max-width: 460px) {
+  .container-annexe {
+    padding-top: 0px; }
+  .container-annexe .outside-annexe-round {
+    padding: 15px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round {
+    padding-bottom: 100px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-low-title {
+    padding-top: 72px;
+    font-size: 8vw;
+    line-height: 22px;
+    letter-spacing: 1.22px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-title {
+    font-size: 10vw;
+    line-height: 20px;
+    letter-spacing: 1.85px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-texte {
+    font-size: 18px;
+    letter-spacing: 1.01px;
+    line-height: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-hour, .container-annexe .outside-annexe-round .inside-annexe-round .annexe-hotel-address {
+    margin-top: 34px;
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 0.85px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-link-address {
+    font-size: 17px;
+    margin-bottom: 50px;
+    letter-spacing: 0; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-hotel-name {
+    margin-top: 35px;
+    font-size: 35px;
+    letter-spacing: 1.47px; }
+  .container-annexe .outside-annexe-round .inside-annexe-round .annexe-map {
+    width: 80%; } }
+
+body, html, * {
+  font-family: cormorant infant, serif;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+header {
+  background-color: #5b98a8; }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 68px;
+  padding: 56px 0 42px;
+  position: static; }
+
+.container-name {
+  font-style: italic;
+  font-size: 40px;
+  line-height: 36px;
+  letter-spacing: 2.4px;
+  font-weight: bold;
+  width: 188px; }
+
+.line-name {
+  display: flex;
+  flex-direction: row; }
+
+.first-name, .second-name {
+  color: white; }
+
+.second-name {
+  margin-left: 25px; }
+
+.and {
+  color: #ffa686;
+  margin-left: 15px; }
+
+#burger-menu {
+  cursor: pointer;
+  z-index: 4; }
+
+.burger-top, .burger-down {
+  transition: 300ms;
+  width: 40px;
+  height: 4px;
+  background-color: black; }
+
+.burger-top {
+  margin: 20px 0 15px 0; }
+
+#menu {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  transition: 400ms;
+  width: 100%; }
+
+.block-menu {
+  margin-top: 190px;
+  text-align: center; }
+
+.block-menu .contact-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px; }
+
+.block-menu .contact-menu a {
+  color: #5b98a8;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 50px;
+  letter-spacing: 1.3px;
+  text-decoration-line: underline; }
+
+.block-menu ul {
+  list-style: none;
+  padding: 0;
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 80px;
+  letter-spacing: 2.8px; }
+
+.block-menu ul li {
+  animation-delay: 1s;
+  transition: 300ms; }
+
+.block-menu ul a {
+  text-decoration: none;
+  color: black; }
+
+.block-menu ul li:hover {
+  line-height: 80px;
+  font-size: 56px;
+  font-style: italic;
+  cursor: pointer;
+  transition: 300ms; }
+
+.menu-active .burger-top {
+  transition: 300ms;
+  transform: translateX(-2px) translateY(17px) rotate(45deg);
+  width: 44px;
+  margin: 10px 0 20px; }
+
+.menu-active .burger-down {
+  transition: 300ms;
+  transform: translateX(-2px) translateY(-7px) rotate(-45deg);
+  width: 44px; }
+
+.effect {
+  display: none; }
+
+.menu-effect {
+  transition: 300ms;
+  opacity: 1 !important;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 4 !important; }
+
+.answer {
+  width: 188px;
+  text-align: right;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 1.52px;
+  color: white; }
+
+.block-welcome {
+  width: 1156px;
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
+  background-color: #5b98a8; }
+
+h2 {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 130px;
+  line-height: 130px;
+  letter-spacing: 8px; }
+
+.title-name {
+  font-size: 160px;
+  line-height: 130px;
+  letter-spacing: 9.72px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+  z-index: 3; }
+
+.row-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0); }
+
+.lauriane {
+  margin-left: 56px; }
+
+.henri {
+  margin-top: -45px;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+  z-index: 1; }
+
+.circle {
+  color: #ffa686;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid white;
+  width: 211px;
+  height: 211px;
+  border-radius: 50%;
+  margin-top: -49px; }
+
+.and-circle {
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 49px; }
+
+.wedding {
+  font-size: 300px;
+  line-height: 50px;
+  letter-spacing: 18.23px;
+  color: #aac4ce;
+  font-weight: bold;
+  font-style: italic;
+  object-fit: contain; }
+
+.more {
+  position: relative;
+  z-index: 1;
+  font-size: 50px;
+  line-height: 230px;
+  letter-spacing: 3.04px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-top: 80px;
+  padding-bottom: 120px;
+  text-align: center; }
+
+.couple-picture {
+  padding-bottom: 145px; }
+
+.picture-couple {
+  border-radius: 50%;
+  margin: 20px auto 150px;
+  display: block; }
+
+.here {
+  background-color: #5b98a8;
+  font-size: 28px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: normal;
+  letter-spacing: 1.7px;
+  border-radius: 40px;
+  color: white;
+  width: 650px;
+  padding: 20px;
+  position: relative;
+  top: -38px; }
+
+.block-text {
+  font-size: 50px;
+  line-height: 60px;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 3.04px;
+  width: 721px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 34px 56px;
+  position: relative;
+  z-index: 2;
+  background-color: white; }
+
+.block-info {
+  background-color: #5b98a8; }
+
+.more-info {
+  background-color: #5b98a8;
+  font-size: 28px;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 1.7px;
+  border-radius: 40px;
+  color: white;
+  width: 650px;
+  margin: auto;
+  padding: 20px 0 20px;
+  position: relative;
+  top: -37px; }
+
+.rounded {
+  width: 100%;
+  background-color: white;
+  border-radius: 1200px 1200px 0 0; }
+
+.block-card {
+  transition: all 500ms ease-out;
+  position: relative;
+  top: -150px;
+  width: 60%;
+  margin: auto auto; }
+
+.first {
+  margin-top: 300px; }
+
+.last {
+  height: 850px; }
+
+.cards {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 502px;
+  margin: auto auto 0;
+  transition: all 500ms ease-out; }
+
+.image-card {
+  width: 285px;
+  height: 377px;
+  transform: rotate(-6deg);
+  border-radius: 17px;
+  z-index: 1;
+  position: relative;
+  left: 25px;
+  top: -25px;
+  transition: all 300ms ease-out; }
+
+.map-card {
+  width: 285px;
+  height: 377px;
+  transform: rotate(6deg);
+  border-radius: 17px;
+  position: relative;
+  right: 110px;
+  transition: all 500ms ease-out; }
+
+.rounded-info {
+  text-align: center;
+  margin-bottom: 200px; }
+
+.rounded-info-text {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 3.04px; }
+
+.rounded-info-place {
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: 4.25px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+.rounded-info-link a {
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 2.43px;
+  font-weight: bold;
+  font-style: italic;
+  color: #ffa686;
+  margin-bottom: 362px;
+  text-decoration: underline; }
+
+.block-card:hover {
+  transform: translateY(-20px);
+  transition: all 500ms ease-out; }
+
+.block-card:hover .rounded-info {
+  transform: scale(1.1);
+  transition: all 500ms ease-out; }
+
+.block-card:hover .image-card {
+  transform: rotate(-10deg) translateX(-20px);
+  transition: all 500ms ease-out; }
+
+.block-card:hover .map-card {
+  transform: rotate(10deg) translateX(20px) translateY(-10px);
+  transition: all 500ms ease-out; }
+
+.blue {
+  background-color: #5b98a8; }
+
+footer {
+  background-color: #373737;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: white; }
+
+h5 {
+  font-size: 60px;
+  letter-spacing: 3.05px;
+  margin-bottom: 10px; }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 92px 0; }
+
+footer a {
+  font-size: 30px;
+  letter-spacing: 1.52px;
+  line-height: 50px;
+  color: white;
+  text-decoration-line: underline; }
+
+@media screen and (max-width: 1217px) {
+  .navbar {
+    margin: 0 52px;
+    padding-bottom: 77px; }
+  .navbar .container-name {
+    font-size: 32px;
+    line-height: 31px;
+    letter-spacing: 1.94px; }
+  .navbar .answer {
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 1.22px; }
+  .navbar #burger-menu .burger-top, .navbar #burger-menu .burger-down {
+    width: 30px; }
+  .navbar .menu-active .burger-top, .navbar .menu-active .burger-down {
+    width: 30px; }
+  .navbar .menu-active .burger-top {
+    margin: 0 0 20px 1px; }
+  .block-welcome {
+    width: 761px; }
+  .block-welcome h2 {
+    font-size: 100px;
+    line-height: 110px;
+    letter-spacing: 6.08px; }
+  .block-welcome .lauriane, .block-welcome .henri, .block-welcome .and-circle {
+    font-size: 130px;
+    line-height: 110px;
+    letter-spacing: 7.9px; }
+  .block-welcome .circle {
+    width: 170px;
+    height: 170px;
+    margin-top: -33px; }
+  .block-welcome .and-circle {
+    margin-top: 18px; }
+  .block-welcome .wedding {
+    font-size: 240px;
+    line-height: 130px;
+    letter-spacing: 14.6px;
+    margin-top: -60px; }
+  .more {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 2.43px; }
+  .picture-couple {
+    width: 490px;
+    height: 490px; }
+  .block-text {
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: 2.55px; }
+  .first {
+    margin-top: 218px; }
+  .last {
+    height: 570px; }
+  .image-card, .map-card {
+    width: 240px;
+    height: 318px; }
+  .image-card {
+    left: 66px; }
+  .map-card {
+    right: 30px; }
+  .rounded-info {
+    margin-bottom: 120px; }
+  .rounded-info .rounded-info-text {
+    font-size: 42px;
+    line-height: 70px;
+    letter-spacing: 2.25px; }
+  .rounded-info .rounded-info-place {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 3.65px; }
+  .rounded-info .rounded-info-link a {
+    font-size: 42px;
+    line-height: 40px;
+    letter-spacing: 2.55px;
+    margin-bottom: 176px; }
+  footer {
+    margin-top: 0; }
+  footer h5 {
+    font-size: 50px;
+    letter-spacing: 2.54px; }
+  footer a {
+    font-size: 30px;
+    line-height: 50px; } }
+
+@media screen and (max-width: 916px) {
+  .navbar {
+    margin: 0 56px;
+    padding-bottom: 42px; }
+  .block-welcome {
+    width: 726px; }
+  .block-welcome h2 {
+    font-size: 80px;
+    line-height: 94px;
+    letter-spacing: 4.86px; }
+  .block-welcome .lauriane, .block-welcome .henri, .block-welcome .and-circle {
+    font-size: 114px;
+    line-height: 94px;
+    letter-spacing: 6.93px; }
+  .block-welcome .and-circle {
+    margin-top: 30px; }
+  .block-welcome .circle {
+    width: 152px;
+    height: 152px; }
+  .block-welcome .wedding {
+    font-size: 200px;
+    line-height: 100px;
+    letter-spacing: 12.5px; }
+  .more {
+    font-size: 34px;
+    line-height: 50px;
+    letter-spacing: 2.07px; }
+  .here, .more-info {
+    width: 480px; }
+  .picture-couple {
+    width: 400px;
+    height: 400px; }
+  .block-text {
+    width: 487px;
+    font-size: 34px;
+    line-height: 50px;
+    letter-spacing: 2.07px; }
+  footer h5 {
+    font-size: 42px;
+    letter-spacing: 2.13px; }
+  footer a {
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 1.02px; } }
+
+@media screen and (max-width: 726px) {
+  .navbar {
+    padding-top: 5vw;
+    margin: 0 5vw;
+    padding-bottom: 10px; }
+  .navbar .burger-top {
+    margin: 15px 0 10px; }
+  .navbar .container-name {
+    font-size: 2.5em;
+    line-height: 3vh; }
+  .navbar .answer {
+    font-size: 1.6em;
+    line-height: 35px; }
+  .block-welcome {
+    width: 100%; }
+  .block-welcome h2 {
+    font-size: 11vw;
+    letter-spacing: 7.47px;
+    line-height: 1em; }
+  .block-welcome .title-name {
+    top: -20px; }
+  .block-welcome .lauriane, .block-welcome .henri, .block-welcome .and-circle {
+    font-size: 18vw;
+    line-height: 1em;
+    letter-spacing: 4.5px; }
+  .block-welcome .lauriane {
+    margin-left: 2vw;
+    padding-bottom: 35px; }
+  .block-welcome .and-circle {
+    margin-top: 0vh; }
+  .block-welcome .circle {
+    width: 18vw;
+    height: 18vw;
+    margin-top: 0vw; }
+  .block-welcome .wedding {
+    font-size: 29vw;
+    line-height: 50px;
+    letter-spacing: 6.5px; }
+  .more {
+    padding-bottom: 10vw; }
+  .here, .more-info {
+    width: 80%; }
+  .block-text {
+    width: 80%;
+    padding: 40px 0;
+    font-size: 6vw;
+    line-height: 8vw;
+    letter-spacing: 1.87px; }
+  .block-card {
+    width: 80%;
+    transition: all 500ms ease-out; }
+  .block-card .map-card, .block-card .image-card {
+    width: 180px;
+    height: 240px; }
+  .block-card .image-card {
+    left: 20vw; }
+  .block-card .map-card {
+    left: 7vw;
+    top: -5px; }
+  .rounded-info {
+    margin-bottom: 200px; }
+  .rounded-info .rounded-info-text {
+    font-size: 6vw;
+    line-height: 3vh;
+    letter-spacing: 1.25px;
+    margin-bottom: 20px; }
+  .rounded-info .rounded-info-place {
+    font-size: 8vw;
+    line-height: 4vw;
+    letter-spacing: 1.65px;
+    margin: 4vw 0 8vw; }
+  .rounded-info .rounded-info-link a {
+    font-size: 8vw;
+    line-height: 1vw;
+    letter-spacing: 2.55px; }
+  .last {
+    height: 430px !important;
+    padding-bottom: 10vw; }
+  .cards {
+    width: 100%; }
+  footer .contact {
+    padding: 8vw 0 6vw; }
+  footer h5 {
+    font-size: 6vw; }
+  footer a {
+    font-size: 4vw; } }
+
+@media screen and (max-width: 421px) {
+  .block-menu ul {
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: 1.46px; }
+  .block-menu ul li:hover {
+    font-size: 30px;
+    line-height: 80px; }
+  .block-menu .contact-menu a {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.91px; }
+  .navbar .container-name {
+    font-size: 24px;
+    line-height: 22px;
+    width: 30%; }
+  .navbar .answer {
+    font-size: 16px;
+    line-height: 25px;
+    width: 30%; }
+  .navbar .burger-top {
+    margin: 10px 0 10px; }
+  .block-welcome h2 {
+    font-size: 55px;
+    line-height: 45px;
+    letter-spacing: 1.67px; }
+  .block-welcome .title-name {
+    top: -20px; }
+  .block-welcome .lauriane, .block-welcome .henri, .block-welcome .and-circle {
+    font-size: 62px;
+    line-height: 90px;
+    letter-spacing: 3.5px; }
+  .block-welcome .lauriane {
+    margin-left: 5px;
+    padding-bottom: 0; }
+  .block-welcome .and-circle {
+    margin-top: -14px; }
+  .block-welcome .circle {
+    width: 65px;
+    height: 65px;
+    margin-top: 10px; }
+  .block-welcome .wedding {
+    font-size: 27vw;
+    line-height: 100px;
+    letter-spacing: 6.5px; }
+  .picture-couple {
+    width: 80%;
+    height: 80%; }
+  .block-card {
+    top: -85px; }
+  .block-card .map-card, .block-card .image-card {
+    width: 120px;
+    height: 180px; }
+  .block-card:hover {
+    transform: translateY(-20px);
+    transition: all 500ms ease-out; }
+  .block-card:hover .rounded-info {
+    transform: scale(1.1);
+    transition: all 500ms ease-out; }
+  .block-card:hover .image-card {
+    transform: rotate(-6deg) translateX(-6px);
+    transition: all 500ms ease-out; }
+  .block-card:hover .map-card {
+    transform: rotate(5deg) translateX(10px) translateY(-8px);
+    transition: all 500ms ease-out; }
+  .first {
+    margin-top: 50px; }
+  .rounded-info {
+    margin-bottom: 130px; }
+  .more {
+    margin-top: 4vw; }
+  .here {
+    font-size: 20px; }
+  .more-info {
+    font-size: 20px;
+    top: -32px; } }
+
+/*# sourceMappingURL=script.css.map */
