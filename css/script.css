@@ -587,6 +587,9 @@ footer a {
   color: white;
   text-decoration-line: underline; }
 
+.white {
+  color: white; }
+
 @media screen and (max-width: 1217px) {
   .navbar {
     margin: 0 52px;
@@ -721,7 +724,7 @@ footer a {
   .navbar {
     padding-top: 5vw;
     margin: 0 5vw;
-    padding-bottom: 10px; }
+    padding-bottom: 95px; }
   .navbar .burger-top {
     margin: 15px 0 10px; }
   .navbar .container-name {
@@ -735,7 +738,9 @@ footer a {
   .block-welcome h2 {
     font-size: 11vw;
     letter-spacing: 7.47px;
-    line-height: 1em; }
+    line-height: 63px; }
+  .block-welcome .row-name {
+    padding-bottom: 3px; }
   .block-welcome .title-name {
     top: -20px; }
   .block-welcome .lauriane, .block-welcome .henri, .block-welcome .and-circle {
@@ -748,17 +753,24 @@ footer a {
   .block-welcome .and-circle {
     margin-top: 0vh; }
   .block-welcome .circle {
-    width: 18vw;
-    height: 18vw;
-    margin-top: 0vw; }
+    width: 20vw;
+    height: 20vw;
+    margin-top: 0vw;
+    border: white solid 2px; }
   .block-welcome .wedding {
     font-size: 29vw;
     line-height: 50px;
     letter-spacing: 6.5px; }
   .more {
-    padding-bottom: 10vw; }
+    padding: 37px 0 95px; }
   .here, .more-info {
     width: 80%; }
+  .first {
+    margin-top: 182px; }
+  .couple-picture {
+    padding-bottom: 120px; }
+  .picture-couple {
+    margin-top: -30px; }
   .block-text {
     width: 80%;
     padding: 40px 0;
@@ -879,6 +891,8 @@ footer a {
     font-size: 20px; }
   .more-info {
     font-size: 20px;
-    top: -32px; } }
+    top: -32px; }
+  .last {
+    padding-bottom: 115px; } }
 
 /*# sourceMappingURL=script.css.map */
