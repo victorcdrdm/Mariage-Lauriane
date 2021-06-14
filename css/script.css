@@ -212,8 +212,8 @@ body, html, * {
   margin: 0; }
 
 a {
-  text-decoration: none;
-  color: white; }
+  text-decoration-line: none;
+  color: black; }
 
 header {
   background-color: #5b98a8; }
@@ -223,16 +223,14 @@ header {
   flex-direction: row;
   justify-content: space-between;
   margin: 0 68px;
-  padding: 56px 0 42px;
-  position: static; }
+  padding: 56px 0 42px; }
 
 .container-name {
   font-style: italic;
   font-size: 40px;
   line-height: 36px;
   letter-spacing: 2.4px;
-  font-weight: bold;
-  width: 188px; }
+  font-weight: bold; }
 
 .line-name {
   display: flex;
@@ -333,14 +331,15 @@ header {
   z-index: 4 !important; }
 
 .answer {
-  width: 188px;
   text-align: right;
   font-style: italic;
   text-decoration: underline;
   font-weight: bold;
   font-size: 30px;
   line-height: 40px;
-  letter-spacing: 1.52px;
+  letter-spacing: 1.52px; }
+
+.answer a {
   color: white; }
 
 .block-welcome {
@@ -478,7 +477,7 @@ h2 {
   transition: all 500ms ease-out;
   position: relative;
   top: -150px;
-  width: 60%;
+  width: 800px;
   margin: auto auto; }
 
 .first {
@@ -490,34 +489,32 @@ h2 {
 .cards {
   position: relative;
   display: flex;
-  flex-direction: row;
-  width: 502px;
-  margin: auto auto 0;
-  transition: all 500ms ease-out; }
+  transition: all 1s ease-out;
+  transition-delay: 300ms;
+  justify-content: center; }
 
 .image-card {
   width: 285px;
   height: 377px;
   transform: rotate(-6deg);
-  border-radius: 17px;
+  border-radius: 5%;
   z-index: 1;
   position: relative;
-  left: 25px;
-  top: -25px;
-  transition: all 300ms ease-out; }
+  left: 8%;
+  top: -25px; }
 
 .map-card {
   width: 285px;
   height: 377px;
   transform: rotate(6deg);
-  border-radius: 17px;
+  border-radius: 5%;
   position: relative;
-  right: 110px;
+  right: 8%;
   transition: all 500ms ease-out; }
 
 .rounded-info {
   text-align: center;
-  margin-bottom: 200px; }
+  margin-top: 60px; }
 
 .rounded-info-text {
   font-size: 50px;
@@ -533,7 +530,7 @@ h2 {
   font-weight: bold;
   margin-bottom: 20px; }
 
-.rounded-info-link a {
+.rounded-info-link {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 2.43px;
@@ -590,6 +587,10 @@ footer a {
 .white {
   color: white; }
 
+.transform-active {
+  transform: translateY(-60px) translateX(5%);
+  transition: all 1s ease-out; }
+
 @media screen and (max-width: 1217px) {
   .navbar {
     margin: 0 52px;
@@ -643,14 +644,13 @@ footer a {
   .first {
     margin-top: 218px; }
   .last {
-    height: 570px; }
+    height: 570px;
+    padding-bottom: 150px; }
   .image-card, .map-card {
     width: 240px;
     height: 318px; }
-  .image-card {
-    left: 66px; }
-  .map-card {
-    right: 30px; }
+  .transform-active {
+    transform: translateX(-3%); }
   .rounded-info {
     margin-bottom: 120px; }
   .rounded-info .rounded-info-text {
@@ -675,7 +675,7 @@ footer a {
     font-size: 30px;
     line-height: 50px; } }
 
-@media screen and (max-width: 916px) {
+@media screen and (max-width: 916px) and (min-width: 727px) {
   .navbar {
     margin: 0 56px;
     padding-bottom: 42px; }
@@ -729,7 +729,7 @@ footer a {
     margin: 15px 0 10px; }
   .navbar .container-name {
     font-size: 2.5em;
-    line-height: 3vh; }
+    line-height: 6.5vw; }
   .navbar .answer {
     font-size: 1.6em;
     line-height: 35px; }
@@ -778,16 +778,11 @@ footer a {
     line-height: 8vw;
     letter-spacing: 1.87px; }
   .block-card {
-    width: 80%;
+    width: 400px;
     transition: all 500ms ease-out; }
   .block-card .map-card, .block-card .image-card {
     width: 180px;
     height: 240px; }
-  .block-card .image-card {
-    left: 20vw; }
-  .block-card .map-card {
-    left: 7vw;
-    top: -5px; }
   .rounded-info {
     margin-bottom: 200px; }
   .rounded-info .rounded-info-text {
@@ -797,16 +792,16 @@ footer a {
     margin-bottom: 20px; }
   .rounded-info .rounded-info-place {
     font-size: 8vw;
-    line-height: 4vw;
+    line-height: 30px;
     letter-spacing: 1.65px;
     margin: 4vw 0 8vw; }
-  .rounded-info .rounded-info-link a {
-    font-size: 8vw;
+  .rounded-info .rounded-info-link {
+    font-size: 6vw;
     line-height: 1vw;
     letter-spacing: 2.55px; }
   .last {
     height: 430px !important;
-    padding-bottom: 10vw; }
+    padding-bottom: 150px; }
   .cards {
     width: 100%; }
   footer .contact {
@@ -830,12 +825,10 @@ footer a {
     letter-spacing: 0.91px; }
   .navbar .container-name {
     font-size: 24px;
-    line-height: 22px;
-    width: 30%; }
+    line-height: 22px; }
   .navbar .answer {
     font-size: 16px;
-    line-height: 25px;
-    width: 30%; }
+    line-height: 25px; }
   .navbar .burger-top {
     margin: 10px 0 10px; }
   .block-welcome h2 {
@@ -865,9 +858,10 @@ footer a {
     width: 80%;
     height: 80%; }
   .block-card {
-    top: -85px; }
+    top: -85px;
+    width: 100%; }
   .block-card .map-card, .block-card .image-card {
-    width: 120px;
+    width: 130px;
     height: 180px; }
   .block-card:hover {
     transform: translateY(-20px);
@@ -881,6 +875,8 @@ footer a {
   .block-card:hover .map-card {
     transform: rotate(5deg) translateX(10px) translateY(-8px);
     transition: all 500ms ease-out; }
+  .block-text {
+    width: 95%; }
   .first {
     margin-top: 50px; }
   .rounded-info {
@@ -891,8 +887,13 @@ footer a {
     font-size: 20px; }
   .more-info {
     font-size: 20px;
-    top: -32px; }
+    top: -32px;
+    padding-bottom: 200px; }
   .last {
-    padding-bottom: 115px; } }
+    padding-bottom: 115px; }
+  .transform-active {
+    transform: translateX(5%); }
+  .rounded-info-link {
+    margin-bottom: 150px; } }
 
 /*# sourceMappingURL=script.css.map */

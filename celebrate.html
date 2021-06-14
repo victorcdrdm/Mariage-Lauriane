@@ -13,14 +13,14 @@
 <div id="menu">
     <div class="block-menu">
         <ul>
-            <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScokofCSCfGxA2hm2l7BwAci09cbamHWBWTFVa7th_KRl4r2Q/viewform?fbclid=IwAR28yrjIm5onXyWYdG0omWXqjUv2NE8ChEn5bpiBu4OxNzQwcRz8I5IavCI">Répondre au faire part</a></li>
-            <li><a href="church.html">L'Eglise</a></li>
-            <li><a href="celebrate.html">réception</a></li>
-            <li><a href="hebergement.html">Se loge</a></li>
-            <li><a target="_blank" href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.millemercismariage.com%2Flauriane-henri%2Fmariage-de-henri-guerlesquin-et-lauriane-sainte-claire-deville.html&h=AT3Wv-1o7Jg0PIdh0PZf7D6MYwZcieNLAUnSR2tYEva6G4tx6V-A4qTP2xvOHM_iLB6iT2LQ_Dys2VaeaDtbucchwM0C4sWdCkKbwogs8GKZMEPDDZBlXJcNX_5noY5PyYFA08VU6C8">Liste de mariage</a></li>
+            <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScokofCSCfGxA2hm2l7BwAci09cbamHWBWTFVa7th_KRl4r2Q/viewform?fbclid=IwAR28yrjIm5onXyWYdG0omWXqjUv2NE8ChEn5bpiBu4OxNzQwcRz8I5IavCI">Répondre au faire-part</a></li>
+            <li><a href="church.html">L'église</a></li>
+            <li><a href="celebrate.html">Le lieu de réception</a></li>
+            <li><a href="hebergement.html">Les logements</a></li>
+            <li><a target="_blank" href="https://www.millemercismariage.com/lauriane-henri/mariage-de-henri-guerlesquin-et-lauriane-sainte-claire-deville.html">Notre liste de mariage</a></li>
         </ul>
         <div class="contact-menu">
-            <a href="mailto:mariage-laurianne-henri@gmail.com">mariage-laurianne-henri@gmail.com</a>
+            <a href="mailto:mariage-laurianne-henri@gmail.com">mariage.lauriane.henri@gmail.com</a>
             <a href="tel:+33 6 08 11 03 51">+33 6 08 11 03 51</a>
         </div>
     </div>
@@ -28,7 +28,7 @@
 <header>
     <div class="navbar">
         <div class="container-name">
-            <a href="index.html">
+            <a href="./index.html">
                 <div class="line-name">
                     <div class="first-name">Riton</div>
                     <div class="and">&</div>
@@ -36,14 +36,13 @@
                 <div class="second-name">Lalou</div>
             </a>
         </div>
-
         <div id="burger-menu" onclick="navFunction()">
             <div class="burger-top"></div>
             <div class="burger-down"></div>
         </div>
-        <div class="answer">
-            <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScokofCSCfGxA2hm2l7BwAci09cbamHWBWTFVa7th_KRl4r2Q/viewform?fbclid=IwAR28yrjIm5onXyWYdG0omWXqjUv2NE8ChEn5bpiBu4OxNzQwcRz8I5IavCI">Répondre au  <br> faire part</a></p>
-        </div>
+        <a target="_blank" class="white" href="https://docs.google.com/forms/d/e/1FAIpQLScokofCSCfGxA2hm2l7BwAci09cbamHWBWTFVa7th_KRl4r2Q/viewform?fbclid=IwAR28yrjIm5onXyWYdG0omWXqjUv2NE8ChEn5bpiBu4OxNzQwcRz8I5IavCI">
+            <div class="answer">Répondre au  <br> faire-part</div>
+        </a>
     </div>
 </header>
 <div class="container-annexe">
@@ -53,15 +52,16 @@
             <div class="annexe-title">La Devinie</div>
             <div class="annexe-texte"><p>La réception à l'issue de la cérémonie religieuse aura lieu <br> à 18 heures à la Devinie.</p>
             </div>
-            <div class="annexe-hour"><p>Rendez-vous à 18h <br>
-                La Devinie - 24140 Douville
-            </p></div>
-        <div class="annexe-link-address">
-            <div class="google-map">
-                <a target="_blank" href="https://www.google.fr/maps/place/44%C2%B059'03.6%22N+0%C2%B035'17.0%22E/@44.9843315,0.5858605,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d44.9843315!4d0.5880492"><p>Voir sur Google map</p></a>
+            <div class="annexe-hour">
+                <p>Rendez-vous à 18h </p>
+                <p class="address" data-ads="7"> La Devinie - 24140 Douville</p>
             </div>
-            <div class="annexe-copy-link">Copier l'adresse</div>
-        </div>
+            <div class="annexe-link-address">
+                <div class="google-map">
+                    <a target="_blank" href="https://www.google.fr/maps/place/44%C2%B059'03.6%22N+0%C2%B035'17.0%22E/@44.9843315,0.5858605,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d44.9843315!4d0.5880492"><p>Voir sur Google map</p></a>
+                </div>
+                <div class="annexe-copy-link" onclick="copy(7)">Copier l'adresse</div>
+            </div>
             <img class="annexe-map" src="images/celebrate-map.png" alt="Google map">
         </div>
     </div>
