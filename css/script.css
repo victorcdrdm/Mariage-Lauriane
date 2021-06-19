@@ -476,9 +476,7 @@ h2 {
 .block-card {
   transition: all 500ms ease-out;
   position: relative;
-  top: -150px;
-  width: 800px;
-  margin: auto auto; }
+  top: -150px; }
 
 .first {
   margin-top: 300px; }
@@ -491,7 +489,18 @@ h2 {
   display: flex;
   transition: all 1s ease-out;
   transition-delay: 300ms;
-  justify-content: center; }
+  justify-content: center;
+  opacity: 1; }
+
+.action {
+  opacity: 0;
+  transform: translateX(-150px) translateY(150px);
+  transition: animation 1550ms ease-in-out; }
+
+@keyframes animation {
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
 
 .image-card {
   width: 285px;
@@ -500,7 +509,7 @@ h2 {
   border-radius: 5%;
   z-index: 1;
   position: relative;
-  left: 8%;
+  left: 5%;
   top: -25px; }
 
 .map-card {
@@ -509,7 +518,7 @@ h2 {
   transform: rotate(6deg);
   border-radius: 5%;
   position: relative;
-  right: 8%;
+  right: 4%;
   transition: all 500ms ease-out; }
 
 .rounded-info {
@@ -778,7 +787,6 @@ footer a {
     line-height: 8vw;
     letter-spacing: 1.87px; }
   .block-card {
-    width: 400px;
     transition: all 500ms ease-out; }
   .block-card .map-card, .block-card .image-card {
     width: 180px;
@@ -863,6 +871,11 @@ footer a {
   .block-card .map-card, .block-card .image-card {
     width: 130px;
     height: 180px; }
+  .block-card .map-card {
+    right: 5%; }
+  .block-card .image-card {
+    left: 7%;
+    top: -8%; }
   .block-card:hover {
     transform: translateY(-20px);
     transition: all 500ms ease-out; }
