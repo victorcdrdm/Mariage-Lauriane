@@ -476,7 +476,13 @@ h2 {
 .block-card {
   transition: all 500ms ease-out;
   position: relative;
-  top: -150px; }
+  display: table;
+  margin: auto;
+  top: -300px; }
+
+.block-card a {
+  position: relative;
+  top: 300px; }
 
 .first {
   margin-top: 300px; }
@@ -487,20 +493,12 @@ h2 {
 .cards {
   position: relative;
   display: flex;
-  transition: all 1s ease-out;
-  transition-delay: 300ms;
-  justify-content: center;
-  opacity: 1; }
+  justify-content: center; }
 
 .action {
   opacity: 0;
   transform: translateX(-150px) translateY(150px);
   transition: animation 1550ms ease-in-out; }
-
-@keyframes animation {
-  100% {
-    opacity: 1;
-    transform: scale(1); } }
 
 .image-card {
   width: 285px;
@@ -522,8 +520,8 @@ h2 {
   transition: all 500ms ease-out; }
 
 .rounded-info {
-  text-align: center;
-  margin-top: 60px; }
+  position: relative;
+  text-align: center; }
 
 .rounded-info-text {
   font-size: 50px;
@@ -815,7 +813,7 @@ footer a {
   footer .contact {
     padding: 8vw 0 6vw; }
   footer h5 {
-    font-size: 6vw; }
+    font-size: 5vw; }
   footer a {
     font-size: 4vw; } }
 
@@ -866,7 +864,6 @@ footer a {
     width: 80%;
     height: 80%; }
   .block-card {
-    top: -85px;
     width: 100%; }
   .block-card .map-card, .block-card .image-card {
     width: 130px;
